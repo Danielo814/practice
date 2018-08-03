@@ -1,0 +1,1 @@
+This is an accumulation of small programs written to improve my programming skills
