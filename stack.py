@@ -14,16 +14,13 @@ class MyStack:
     def push(self, x):
         """
         Push element x onto stack.
-        :type x: int
-        :rtype: void
         """
         self.i.append(x)
         self.len += 1
 
     def pop(self):
         """
-        Removes the element on top of the stack and returns that element.
-        :rtype: int
+        Removes the element on top of the stack and returns that element
         """
         n = self.len
         while n > 1:
