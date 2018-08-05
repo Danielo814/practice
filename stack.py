@@ -6,14 +6,14 @@ class MyStack:
 
     def __init__(self):
         """
-        Initialize your data structure here.
+        Initializes data structure
         """
         self.len = 0
         self.i = []
 
     def push(self, x):
         """
-        Push element x onto stack.
+        Pushes element x onto stack.
         """
         self.i.append(x)
         self.len += 1
@@ -31,7 +31,7 @@ class MyStack:
 
     def top(self):
         """
-        Get the top element.
+        Gets the top element.
         """
         n = self.len
         while n > 1:
